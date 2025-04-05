@@ -1,5 +1,7 @@
 import React from 'react';
-import { useApp, Wrapper } from '@hygraph/app-sdk-react';
+import { useState, useEffect } from 'react';
+
+import { useApp, Wrapper, useFieldExtension } from '@hygraph/app-sdk-react';
 import HomePage from './homepage';
 
 function Setup() {
@@ -27,8 +29,44 @@ function Install() {
   );
 }
 
+function MyCustomField() {
+  const { value, onChange } = useFieldExtension();
+  const [localValue, setLocalValue] = useState(value || '');
+
+  useEffect(() => {
+    onChange(localValue);
+  }, [localValue, onChange]);
+
+  return (
+    <>
+      <label htmlFor="website">Custom Field:</label>
+      <input
+        id="website"
+        value={localValue}
+        onChange={(e) => setLocalValue(e.target.value)}
+      />
+    </>
+  );
+}
+
+// Reading config data in Field Extension
+function FieldElement() {
+  const {
+    extension: { fieldConfig },
+  } = useFieldExtension();
+  const colorsConfig = fieldConfig?.website;
+
+  return <div>{colorsConfig}</div>;
+}
+
 function Configure() {
-  return <HomePage/>;
+  return (
+    <Wrapper>
+      <FieldElement />
+      <HomePage />
+    </Wrapper>
+  );
+  // return <HomePage/>;
 }
 
 export default function Page() {
