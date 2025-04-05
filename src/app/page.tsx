@@ -1,6 +1,22 @@
+import { useEffect } from "react";
+
 import Image from "next/image";
 
 export default function Home() {
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const aioaScript = document.createElement("script");
+      aioaScript.src =
+        "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=#420083&token=null&position=bottom_right";
+      aioaScript.id = "aioa-adawidget";
+      aioaScript.defer = true;
+      document.body.appendChild(aioaScript);
+    }, 3000);
+
+    return () => clearTimeout(timer); // Cleanup if component unmounts early
+  }, []);
+
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
