@@ -1,3 +1,5 @@
+"use client"; // required if this is in `app/` directory of Next.js App Router
+
 import { useEffect } from "react";
 
 import Image from "next/image";
