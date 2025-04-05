@@ -10,19 +10,19 @@ function Setup() {
   return <Homepage />;
 }
 
-function Install() {
-  const { updateInstallation } = useApp();
+// function Install() {
+//   const { updateInstallation } = useApp();
 
-  return (
-    <button
-      onClick={() => {
-        updateInstallation({ status: 'COMPLETED', config: {} });
-      }}
-    >
-      Install App
-    </button>
-  );
-}
+//   return (
+//     <button
+//       onClick={() => {
+//         updateInstallation({ status: 'COMPLETED', config: {} });
+//       }}
+//     >
+//       Install App
+//     </button>
+//   );
+// }
 
 function Configure() {
   return <div>Configure</div>;

@@ -3,7 +3,7 @@
 import { Wrapper, useApp } from '@hygraph/app-sdk-react';
 
 function PageElement() {
-  const { installation, showToast } = useApp();
+  const { showToast } = useApp();
 
   const handleClick = () => {
     showToast({
