@@ -7,25 +7,25 @@ function Setup() {
   if (installation.status === 'COMPLETED') {
     return <Configure />;
   }
-  return <Homepage />;
+  return <Install />;
 }
 
-// function Install() {
-//   const { updateInstallation } = useApp();
+function Install() {
+  const { updateInstallation } = useApp();
 
-//   return (
-//     <button
-//       onClick={() => {
-//         updateInstallation({ status: 'COMPLETED', config: {} });
-//       }}
-//     >
-//       Install App
-//     </button>
-//   );
-// }
+  return (
+    <button
+      onClick={() => {
+        updateInstallation({ status: 'COMPLETED', config: {} });
+      }}
+    >
+      Install App
+    </button>
+  );
+}
 
 function Configure() {
-  return <div>Configure</div>;
+  return <Homepage />;
 }
 
 export default function Page() {
