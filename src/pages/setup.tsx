@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp, Wrapper } from '@hygraph/app-sdk-react';
+import HomePage from './homepage';
 
 function Setup() {
   const { installation } = useApp();
@@ -24,7 +25,7 @@ function Install() {
 }
 
 function Configure() {
-  return <div>Configure</div>;
+  return <HomePage/>;
 }
 
 export default function Page() {
