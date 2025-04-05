@@ -4,10 +4,13 @@ import HomePage from './homepage';
 
 function Setup() {
   const { installation } = useApp();
+  const { updateInstallation } = useApp();
+
   if (installation.status === 'COMPLETED') {
     return <Configure />;
   }
-  return <Install />;
+  updateInstallation({ status: 'COMPLETED', config: {} });
+  return <Configure />;
 }
 
 function Install() {
