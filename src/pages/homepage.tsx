@@ -88,7 +88,7 @@ const HomePage: FC = () => {
   }
 
   const [isValid, setIsValid] = useState<boolean>(false);
-  const [message, setMessage] = useState<string>("");
+  const [website, setWebsite] = useState<string>("");
   const [parameters, setParameters] = useState<Parameters>({
     hexaColor: "",
     widget_size: "0",
@@ -126,6 +126,7 @@ const HomePage: FC = () => {
       console.log("Icon Type", settingList["Icon_Type"]);
       console.log("Icon Size", settingList["Icon_Size"]);
 
+
       setParameters({
         hexaColor: settingList["Color_Code"],
         position: settingList["Icon_Position"],
@@ -144,6 +145,7 @@ const HomePage: FC = () => {
     // const user = useCurrentUser()
     // console.log('user', user?.name);
     // console.log('user', user?.email);
+    setWebsite(localStorage.getItem("website") ?? "");
 
     getAPIData();
   }, [settingList]);
@@ -219,7 +221,9 @@ const HomePage: FC = () => {
       widget_position_top = custom_position_y_value;
     }
 
-    formdata.append("u", window.location.hostname);
+    localStorage.setItem('website', website);
+
+    formdata.append("u", website);
     formdata.append("widget_position", data.position);
     formdata.append("widget_color_code", data.hexaColor);
     formdata.append("widget_icon_type", data.icontype);
@@ -765,6 +769,40 @@ const HomePage: FC = () => {
                         </div> */}
                         </Form.Group>
                       )}
+
+                      <Form.Group className={`mb-30 row`}>
+                        <Form.Label
+                          htmlFor="website"
+                          className="col-sm-3 col-form-label"
+                        >
+                          Website:
+                        </Form.Label>
+                        <div className="col-sm-9">
+                          <Form.Control
+                            value={website}
+                            className="form-control"
+                            id="website"
+                            name="website"
+                            onChange={(e) =>
+                              setWebsite(e.target.value)
+                            }
+                          />
+                        </div>
+                        <div className="col-sm-3"></div>
+                        <div className="form-text col-sm-9">
+                          Enter your website where you want to add All in One Accessibility Widget.
+                          Please{" "}
+                              <a
+                                href="https://ada.skynettechnologies.us/trial-subscription"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                &nbsp;Register&nbsp;
+                              </a>{" "}
+                              to the free version of All in One Accessibility.
+                        </div>
+                        
+                      </Form.Group>
 
                       <Form.Group className={`mb-30 row`}>
                         <Form.Label
