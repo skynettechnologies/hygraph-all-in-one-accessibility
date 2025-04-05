@@ -1,12 +1,13 @@
 import React from 'react';
 import { useApp, Wrapper } from '@hygraph/app-sdk-react';
+import Homepage from "./homepage"
 
 function Setup() {
   const { installation } = useApp();
   if (installation.status === 'COMPLETED') {
     return <Configure />;
   }
-  return <Install />;
+  return <Homepage />;
 }
 
 function Install() {
