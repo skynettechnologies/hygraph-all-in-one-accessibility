@@ -1,6 +1,6 @@
 import React from 'react';
 import { useApp, Wrapper } from '@hygraph/app-sdk-react';
-import Homepage from "./homepage"
+import Homepage from "./page"
 
 function Setup() {
   const { installation } = useApp();
