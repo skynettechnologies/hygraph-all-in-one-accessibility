@@ -1,5 +1,5 @@
 import React, { FC, useState, useEffect, ChangeEvent } from "react";
-import { Form, Button, Image } from "react-bootstrap";
+import { Form, Button, Image, Alert } from "react-bootstrap";
 import {
   InputGroup,
   FormControl,
@@ -168,7 +168,13 @@ const HomePage: FC = () => {
    * Save Changes is a function which used to click on Save Changes Button on UI
    */
   const onSaveChanges = async (): Promise<void> => {
-    saveData(parameters);
+
+    if (website.trim.length == 0) {
+        alert("Please enter Website");
+    } else {
+        saveData(parameters);
+    }
+
   };
 
   /**
@@ -786,12 +792,17 @@ const HomePage: FC = () => {
                             onChange={(e) =>
                               setWebsite(e.target.value)
                             }
+                            onSubmit={(e) => 
+                                getAPIData()
+                            }
                           />
                         </div>
                         <div className="col-sm-3"></div>
                         <div className="form-text col-sm-9">
                           Enter your website where you want to add All in One Accessibility Widget.
-                          Please{" "}
+                          {website.trim.length == 0 && (
+                            <div>
+                                Please{" "}
                               <a
                                 href="https://ada.skynettechnologies.us/trial-subscription"
                                 target="_blank"
@@ -799,7 +810,8 @@ const HomePage: FC = () => {
                               >
                                 &nbsp;Register&nbsp;
                               </a>{" "}
-                              to the free version of All in One Accessibility.
+                              to the free version of All in One Accessibility.</div>
+                            )}
                         </div>
                         
                       </Form.Group>
