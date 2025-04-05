@@ -39,7 +39,7 @@ function MyCustomField() {
 
   return (
     <>
-      <label htmlFor="website">Custom Field:</label>
+      <label htmlFor="website">Website:</label>
       <input
         id="website"
         value={localValue}
@@ -62,7 +62,7 @@ function FieldElement() {
 function Configure() {
   return (
     <Wrapper>
-      <FieldElement />
+      <MyCustomField />
       <HomePage />
     </Wrapper>
   );
