@@ -1,7 +1,29 @@
 {
   "name": "hygraph-all-in-one-accessibility",
   "version": "0.1.0",
-  "private": true,
+  "description": "Website accessibility widget for improving WCAG 2.0, 2.1, 2.2 and ADA compliance!",
+  "keywords": [
+    "hygraph",
+    "hygraph-app",
+    "cms",
+    "headless",
+    "All in One Accessibility",
+    "ADA",
+    "All in One Accessibility Hygraph",
+    "All in One Accessibility javascript",
+    "Hygraph App All in One Accessibility",
+    "hygraph-all-in-one-accessibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skynettechnologies/hygraph-all-in-one-accessibility"
+  },
+  "bugs": {
+    "url": "https://github.com/skynettechnologies/hygraph-all-in-one-accessibility/issues"
+  },
+  "homepage": "https://github.com/skynettechnologies/hygraph-all-in-one-accessibility#readme",
+  "license": "MIT",
+  "author": "Skynet Technologies USA LLC <developer3@skynettechnologies.com>",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

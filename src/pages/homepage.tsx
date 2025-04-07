@@ -9,70 +9,43 @@ import {
   OverlayTrigger,
 } from "react-bootstrap";
 
-const aioaicontype1 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-1.svg";
-const aioaicontype2 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-2.svg";
-const aioaicontype3 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-3.svg";
-const aioaicontype4 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-4.svg";
-const aioaicontype5 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-5.svg";
-const aioaicontype6 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-6.svg";
-const aioaicontype7 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-7.svg";
-const aioaicontype8 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-8.svg";
-const aioaicontype9 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-9.svg";
-const aioaicontype10 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-10.svg";
-const aioaicontype11 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-11.svg";
-const aioaicontype12 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-12.svg";
-const aioaicontype13 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-13.svg";
-const aioaicontype14 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-14.svg";
-const aioaicontype15 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-15.svg";
-const aioaicontype16 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-16.svg";
-const aioaicontype17 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-17.svg";
-const aioaicontype18 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-18.svg";
-const aioaicontype19 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-19.svg";
-const aioaicontype20 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-20.svg";
-const aioaicontype21 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-21.svg";
-const aioaicontype22 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-22.svg";
-const aioaicontype23 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-23.svg";
-const aioaicontype24 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-24.svg";
-const aioaicontype25 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-25.svg";
-const aioaicontype26 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-26.svg";
-const aioaicontype27 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-27.svg";
-const aioaicontype28 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-28.svg";
-const aioaicontype29 =
-  "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-29.svg";
-const allinoneaccessibilitylogo =
-  "https://sanity.skynettechnologies.us/assets/images/all-in-one-accessibility-logo.svg";
+/**
+ * These Variables are used for Widget Icon Type section.
+ */
+const aioaicontype1 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-1.svg";
+const aioaicontype2 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-2.svg";
+const aioaicontype3 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-3.svg";
+const aioaicontype4 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-4.svg";
+const aioaicontype5 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-5.svg";
+const aioaicontype6 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-6.svg";
+const aioaicontype7 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-7.svg";
+const aioaicontype8 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-8.svg";
+const aioaicontype9 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-9.svg";
+const aioaicontype10 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-10.svg";
+const aioaicontype11 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-11.svg";
+const aioaicontype12 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-12.svg";
+const aioaicontype13 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-13.svg";
+const aioaicontype14 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-14.svg";
+const aioaicontype15 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-15.svg";
+const aioaicontype16 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-16.svg";
+const aioaicontype17 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-17.svg";
+const aioaicontype18 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-18.svg";
+const aioaicontype19 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-19.svg";
+const aioaicontype20 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-20.svg";
+const aioaicontype21 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-21.svg";
+const aioaicontype22 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-22.svg";
+const aioaicontype23 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-23.svg";
+const aioaicontype24 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-24.svg";
+const aioaicontype25 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-25.svg";
+const aioaicontype26 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-26.svg";
+const aioaicontype27 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-27.svg";
+const aioaicontype28 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-28.svg";
+const aioaicontype29 = "https://sanity.skynettechnologies.us/assets/images/aioa-icon-type-29.svg";
+const allinoneaccessibilitylogo = "https://sanity.skynettechnologies.us/assets/images/all-in-one-accessibility-logo.svg";
 
 const HomePage: FC = () => {
   /**
-   * Declare Variables
+   * Declare Variables which are used to hold Settings values like Color, Widget Size, Widget Position, Widget Icon Type, Widget Icon Size.
    */
 
   interface Parameters {
@@ -126,7 +99,6 @@ const HomePage: FC = () => {
       console.log("Icon Type", settingList["Icon_Type"]);
       console.log("Icon Size", settingList["Icon_Size"]);
 
-
       setParameters({
         hexaColor: settingList["Color_Code"],
         position: settingList["Icon_Position"],
@@ -142,9 +114,6 @@ const HomePage: FC = () => {
         setIconSize(aioaicontype1);
       }
     }
-    // const user = useCurrentUser()
-    // console.log('user', user?.name);
-    // console.log('user', user?.email);
     setWebsite(localStorage.getItem("website") ?? "");
 
     getAPIData();
@@ -168,13 +137,11 @@ const HomePage: FC = () => {
    * Save Changes is a function which used to click on Save Changes Button on UI
    */
   const onSaveChanges = async (): Promise<void> => {
-
-    if (website.trim.length == 0) {
-        alert("Please enter Website");
+    if (website.length == 0) {
+      alert("Please enter Website");
     } else {
-        saveData(parameters);
+      saveData(parameters);
     }
-
   };
 
   /**
@@ -227,7 +194,7 @@ const HomePage: FC = () => {
       widget_position_top = custom_position_y_value;
     }
 
-    localStorage.setItem('website', website);
+    localStorage.setItem("website", website);
 
     formdata.append("u", website);
     formdata.append("widget_position", data.position);
@@ -281,7 +248,7 @@ const HomePage: FC = () => {
    */
   const getAPIData = (): void => {
     const formdata = new FormData();
-    formdata.append("website_url", window.location.hostname);
+    formdata.append("website_url", website);
 
     const requestOptions: RequestInit = {
       method: "POST",
@@ -789,20 +756,17 @@ const HomePage: FC = () => {
                             className="form-control"
                             id="website"
                             name="website"
-                            onChange={(e) =>
-                              setWebsite(e.target.value)
-                            }
-                            onSubmit={(e) => 
-                                getAPIData()
-                            }
+                            onChange={(e) => setWebsite(e.target.value)}
+                            onSubmit={(e) => getAPIData()}
                           />
                         </div>
                         <div className="col-sm-3"></div>
                         <div className="form-text col-sm-9">
-                          Enter your website where you want to add All in One Accessibility Widget.
-                          {website.trim.length == 0 && (
+                          Enter your website where you want to add All in One
+                          Accessibility Widget.
+                          {website.length == 0 && (
                             <div>
-                                Please{" "}
+                              Please{" "}
                               <a
                                 href="https://ada.skynettechnologies.us/trial-subscription"
                                 target="_blank"
@@ -810,10 +774,10 @@ const HomePage: FC = () => {
                               >
                                 &nbsp;Register&nbsp;
                               </a>{" "}
-                              to the free version of All in One Accessibility.</div>
-                            )}
+                              to the free version of All in One Accessibility.
+                            </div>
+                          )}
                         </div>
-                        
                       </Form.Group>
 
                       <Form.Group className={`mb-30 row`}>
