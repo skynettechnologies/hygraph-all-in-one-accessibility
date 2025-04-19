@@ -8,13 +8,13 @@
 
 This lightweight and flexible widget is designed to improve your website’s compliance with **international accessibility standards**, including:
 
-### 🌍 **International Standards**
+### **International Standards**
 
 - **WCAG 2.0, 2.1, & 2.2** (Web Content Accessibility Guidelines)  
 - **ATAG 2.0** (Authoring Tool Accessibility Guidelines)  
 - **PDF/UA – ISO 14289** (Accessible PDF Format)
 
-### 🇺🇸 **United States**
+### **United States**
 - **ADA (Americans with Disabilities Act)**  
 - **ADA Title III Website Accessibility**  
 - **Section 508 (U.S. Government Standard)**  
@@ -35,70 +35,70 @@ This lightweight and flexible widget is designed to improve your website’s com
 - **Kansas ADA Compliance**  
 - **Washington State ADA Compliance**
 
-### 🇨🇦 **Canada**
+### **Canada**
 - **AODA (Accessibility for Ontarians with Disabilities Act)**  
 - **ACA (Accessible Canada Act)**
 
-### 🇬🇧 **United Kingdom**
+### **United Kingdom**
 - **UK Equality Act (EA)**
 
-### 🇪🇺 **European Union**
+### **European Union**
 - **EAA / EN 301 549 Accessibility**  
 - **EN 301 549 v4.1.1**
 
-### 🇫🇷 **France**
+### **France**
 - **RGAA (Référentiel Général d’Amélioration de l’Accessibilité)**
 
-### 🇩🇪 **Germany**
+### **Germany**
 - **BITV (Barrierefreie-Informationstechnik-Verordnung)**
 
-### 🇮🇹 **Italy**
+### **Italy**
 - **Italian Stanca Act**
 
-### 🇪🇸 **Spain**
+### **Spain**
 - **UNE 139803:2012**
 
-### 🇦🇹 **Austria**
+### **Austria**
 - **WZG (Austrian Web Accessibility Act)**
 
-### 🇨🇭 **Switzerland**
+### **Switzerland**
 - **Swiss Disability Discrimination Act (DDA)**
 
-### 🇸🇪 **Sweden**
+### **Sweden**
 - **Swedish Discrimination Act (2008:567)**
 
-### 🇮🇱 **Israel**
+### **Israel**
 - **IS 5568 (Israeli Standard)**
 
-### 🇦🇺 **Australia**
+### **Australia**
 - **Australian DDA (Disability Discrimination Act)**
 
-### 🇮🇳 **India**
+### **India**
 - **RPD Act (Rights of Persons with Disabilities Act)**  
 - **GIGW 3.0 (Guidelines for Indian Government Websites)**
 
-### 🇧🇷 **Brazil**
+### **Brazil**
 - **LBI 13.146/2015 (Brazilian Inclusion Law)**
 
-### 🇲🇽 **Mexico**
+### **Mexico**
 - **ADA-Inspired Web Accessibility Compliance**
 
-### 🇯🇵 **Japan**
+### **Japan**
 - **JIS X 8341**
 
-### 🇰🇷 **South Korea**
+### **South Korea**
 - **KWCAG 2.1 (Korean Web Content Accessibility Guidelines)**
 
-### 🇸🇬 **Singapore**
+### **Singapore**
 - **DSS and SGDS (Design System and Digital Standards)**
 
-### 🇲🇾 **Malaysia**
+### **Malaysia**
 - **PWD Act 2008 (Persons with Disabilities Act)**
 
-### 🇹🇭 **Thailand**
+### **Thailand**
 - **PDA 2013 (Persons with Disabilities Empowerment Act)**
 
-### 🇦🇪 **United Arab Emirates**
+### **United Arab Emirates**
 - **UAE Disability Act (Federal Law No. 29 of 2006)**
 
 For more details on supported accessibility laws and standards, visit  
@@ -114,9 +114,9 @@ By implementing the widget, you’re not only enhancing user experience but also
 
 ### Upgrade to Unlock Premium Features
 
-**Why stop at 23 features?** Unlock over **70 advanced features** with our **paid subscription** and take your website’s accessibility to the next level. Compare the benefits of Free vs. Paid versions **[here](https://www.skynettechnologies.com/all-in-one-accessibility/features)**.
+**Why stop at 23 features?** Unlock over **70+ advanced features** with our **paid subscription** and take your website’s accessibility to the next level. Compare the benefits of Free vs. Paid versions **[here](https://www.skynettechnologies.com/all-in-one-accessibility/features)**.
 
-Checkout the steps for upgrading **[Free to Paid Widget](https://www.skynettechnologies.com/blog/upgrade-all-in-one-accessibility-free-widget-to-paid-version#free-paid-version).**
+Checkout the steps for upgrading **[Free to Paid Widget Upgrade Steps](https://www.skynettechnologies.com/blog/upgrade-all-in-one-accessibility-free-widget-to-paid-version#free-paid-version).**
 
 ### Start Your Accessibility Journey Today
 
@@ -173,7 +173,9 @@ To avoid CORS policy issues, ensure the following URLs are allowed in your websi
 | `https://*.skynettechnologies.com` | Skynet Technologies (Global Domain)          | API access and resources         |
 | `https://*.skynettechnologies.us`  | Skynet Technologies (US Domain)              | API access and resources         |
 | `https://*.googleapis.com`         | Google APIs                                  | Services like Fonts, Translation |
+| `https://*.gstatic.com`            | Fonts APIs                                   | Custom Fonts                     |
 | `https://vlibras.gov.br`           | VLibras - Brazilian Sign Language Service    | Sign Language                    |
+
 
 ## Instructions
 
@@ -201,16 +203,16 @@ Please visit our **[support page](https://www.skynettechnologies.com/report-acce
 Alternatively, you can send an email to our support team:
 **[hello@skynettechnologies.com](mailto:hello@skynettechnologies.com)**
 
-## Accessibility Add-on Services
+## Accessibility Paid Add-on Services
 
 ### **[Manual Accessibility Audit Report](https://www.skynettechnologies.com/all-in-one-accessibility/addons#manual-accessibility-audit-report)**
 
 Enhance inclusivity and user experience by evaluating your website’s accessibility by accessibility experts.
-WCAG 2.0 / WCAG 2.1 / WCAG 2.2 Level AA conformance testing
-Automated, semi-automated testing
-Manual testing
-Simple before-after UI/UX recommendations on how to fix the issues
-Comprehensive audit report
+WCAG 2.0 / WCAG 2.1 / WCAG 2.2 Level AA conformance testing.
+Automated, semi-automated testing.
+Manual testing.
+Simple before-after UI/UX recommendations on how to fix the issues.
+Comprehensive audit report.
 
 ### **[Manual Accessibility Remediation](https://www.skynettechnologies.com/all-in-one-accessibility/addons#manual-accessibility-remediation)**
 Enhance website accessibility and inclusivity with our Manual Accessibility Remediation add-on. This service includes fixing accessibility issues and thorough remediation of your website manually. Our experts ensure accessibility with WCAG standards, improve user experience for those with disabilities, and provide a detailed report on the improvements made.
@@ -218,10 +220,10 @@ Enhance website accessibility and inclusivity with our Manual Accessibility Reme
 ### **[PDF/Document Accessibility Remediation](https://www.skynettechnologies.com/all-in-one-accessibility/addons#pdf-document-remediation)**
 The PDF / Document Remediation provides a list of inaccessible PDFs and remediated PDFs from where you can request PDF remediation service.
  
- ### **[VPAT Report/Accessibility Conformance Report(ACR)](https://www.skynettechnologies.com/all-in-one-accessibility/addons#vpat-acr-report)**
- The Voluntary Product Accessibility Template (VPAT), also known as an ACR (Accessibility Conformance Report) starts with an audit and provides current details for an accessible website, application, or any other digital assets.
+### **[VPAT Report/Accessibility Conformance Report(ACR)](https://www.skynettechnologies.com/all-in-one-accessibility/addons#vpat-acr-report)**
+The Voluntary Product Accessibility Template (VPAT), also known as an ACR (Accessibility Conformance Report) starts with an audit and provides current details for an accessible website, application, or any other digital assets.
 
-## Accessibility Widget Add-ons
+## Accessibility Widget Paid Add-ons
 
 ### **[White Label](https://www.skynettechnologies.com/all-in-one-accessibility/addons#accessibility-widget-add-ons)**
 Remove the Skynet technologies logo as well as all of the footer links, popups, report a problem link and more for full white label control.
@@ -240,7 +242,7 @@ Partner with us as an agency to provide comprehensive accessibility solutions to
 
 ### **[Affiliated Partnership](https://www.skynettechnologies.com/affiliate-partner)**
 
-Join our affiliate program and earn commissions by promoting All in One Accessibility™. Share our Widget with your network and help businesses improve their website accessibility while generating revenue.
+Join our affiliate program and earn commissions by promoting All in One Accessibility®. Share our Widget with your network and help businesses improve their website accessibility while generating revenue.
 
 For more details, Please visit **[Partnership Opportunities Page](https://www.skynettechnologies.com/partner-program)**
 
